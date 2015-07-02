@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: rotboard.PcbDoc   3/11/2015  5:49:47 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : rotboard.TXT
+EIA File   : rotboard.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        28mil (0.7112mm)         Round          17               6.62 Inch (168.04 mm)
+T2        62.99mil (1.59995mm)     Round          9                4.58 Inch (116.23 mm)
+T3        62.99mil (1.59995mm)     Round          2         NPTH   0.35 Inch (9.00 mm)
+T4        120mil (3.048mm)         Round          4         NPTH   4.75 Inch (120.65 mm)
+T5        157.48mil (3.99999mm)    Round          4         NPTH   2.51 Inch (63.64 mm)
+---------------------------------------------------------------------------
+Totals                                            36               18.80 Inch (477.56 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:13

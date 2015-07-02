@@ -1,0 +1,19 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+S1         TSWB-3N-CB111_LFS   -1160.92mil    740.819mil  -1170.634mil    751.722mil    -913.85mil    513.236mil  T          0.00 TSWB-3N-CB111 LFS
+R19        R0402            -1629.795mil        619mil      -1630mil        619mil  -1655.591mil        619mil  B        360.00 *              
+R18        R0402            -1354.795mil       1274mil      -1355mil       1274mil  -1380.591mil       1274mil  B        360.00 *              
+R17        R0402             -667.205mil        902mil       -667mil        902mil   -641.409mil        902mil  B        180.00 *              
+R16        R0402             -881.205mil        256mil       -881mil        256mil   -855.409mil        256mil  B        180.00 *              
+R15        R0402            -1029.205mil       1017mil      -1029mil       1017mil  -1003.409mil       1017mil  B        180.00 *              
+R14        R0402            -1051.205mil        514mil      -1051mil        514mil  -1025.409mil        514mil  B        180.00 *              
+R13        R0402            -1331.205mil        716mil      -1331mil        716mil  -1305.409mil        716mil  B        180.00 *              
+CN1        PH-SM4             -205.89mil    750.299mil        -94mil        394mil        -94mil        394mil  B        270.00 S10B-PH        
+C1         0402C            -1326.001mil        792mil      -1306mil        792mil  -1306.001mil        792mil  B        180.00 .01uf          
+C2         0402C            -1045.001mil        447mil      -1025mil        447mil  -1025.001mil        447mil  B        180.00 .01uf          
+C3         0402C            -1024.001mil        949mil      -1004mil        949mil  -1004.001mil        949mil  B        180.00 .01uf          
+C4         0402C             -875.001mil        324mil       -855mil        324mil   -855.001mil        324mil  B        180.00 .01uf          
+C5         0402C             -661.001mil        837mil       -641mil        837mil   -641.001mil        837mil  B        180.00 .01uf          
+C6         0402C            -1359.999mil   1206.001mil      -1380mil       1206mil  -1379.999mil   1206.001mil  B        360.00 .01uf          
+C7         0402C            -1636.999mil        550mil      -1657mil        550mil  -1656.999mil        550mil  B        360.00 .01uf          
+

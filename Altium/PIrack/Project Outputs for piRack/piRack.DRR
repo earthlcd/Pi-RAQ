@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: piRack.PcbDoc   3/11/2015  8:09:07 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : piRack-RoundHoles.TXT
+ASCII SlotHoles File : piRack-SlotHoles.TXT
+EIA File   : piRack.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        13mil (0.3302mm)         Round          118              16.70 Inch (424.14 mm)
+T2        16mil (0.4064mm)         Round          15               0.35 Inch (8.89 mm)
+T3        24mil (0.6096mm)         Round          2                0.05 Inch (1.40 mm)
+T4        29.53mil (0.75006mm)     Round          2                0.08 Inch (2.00 mm)
+T5        40mil (1.016mm)          Round          6                3.92 Inch (99.69 mm)
+T6        43.31mil (1.10007mm)     Round          2                1.80 Inch (45.72 mm)
+T7        50mil (1.27mm)           Slot           3                1.09 Inch (27.70 mm)
+T8        118.11mil (2.99999mm)    Round          4                6.50 Inch (165.00 mm)
+---------------------------------------------------------------------------
+Totals                                            152              30.49 Inch (774.54 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01
