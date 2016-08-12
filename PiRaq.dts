@@ -1,0 +1,61 @@
+/dts-v1/;
+
+/ {
+        compatible = "brcm,bcm2708";
+
+        fragment@0 {
+                target = <0xdeadbeef>;
+
+                __overlay__ {
+                        pinctrl-names = "default";
+                        pinctrl-0 = <0x1>;
+                };
+        };
+
+        fragment@1 {
+                target = <0xdeadbeef>;
+
+                __overlay__ {
+
+                        piraq_pins {
+                                brcm,pins = <0x0 0x1 0x4 0x5 0x6 0x7 0x8 0x9 0xa 0xb 0xc 0xd 0xe 0xf 0x10 0x11 0x12 0
+x13 0x14 0x15>;
+                                brcm,function = <0x6>;
+                                brcm,pull = <0x0>;
+                                phandle = <0x1>;
+                        };
+                };
+        };
+        fragment@2 {
+                target-path = "/soc/gpio";
+
+                __overlay__ {
+
+                        backlight_pin {
+                                brcm,pins = <0x2>;
+                                brcm,function = <0x1>;
+                                brcm,pull = <0x2>;
+                                phandle = <0x2>;
+                        };
+                };
+        };
+        __symbols__ {
+                piraq_pins = "/fragment@1/__overlay__/piraq_pins";
+                backlight_pin = "/fragment@2/__overlay__/backlight_pin";
+        };
+
+        __local_fixups__ {
+
+                fragment@0 {
+
+                        __overlay__ {
+                                pinctrl-0 = <0x0>;
+                        };
+                };
+        };
+
+        __fixups__ {
+                leds = "/fragment@0:target:0";
+                gpio = "/fragment@1:target:0";
+        };
+};
